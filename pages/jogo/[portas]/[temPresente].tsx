@@ -9,7 +9,7 @@ import github from '../../../img/github.png'
 import styles2 from "../../../styles/Formulario.module.css"
 
 
-export default function jogo() {
+export default function Jogo() {
     const router = useRouter()
 
     const [valido, setValido ] = useState(false)
@@ -31,8 +31,6 @@ export default function jogo() {
         setPortas(criarPortas(portas, temPresente))
     }, [router?.query])    
 
-    // router.query.portas
-    // router.query.temPresente
 
     function renderizarPortas() {
         return portas.map(porta => {
