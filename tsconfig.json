@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/Porta.tsx"  ],
+, "components/Porta.tsx", "pages/index.tsx"  ],
   "exclude": [
     "node_modules"
   ]
